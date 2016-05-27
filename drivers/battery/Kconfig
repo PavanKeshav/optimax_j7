@@ -476,6 +476,7 @@ config FIX_CHG_FQ_4MHZ
 	default n
 	depends on CHARGER_MAX77843
 	help
+<<<<<<< HEAD
 	  Say Y to fix charging frequency 4MHz
 
 config STORE_MODE
@@ -483,3 +484,6 @@ config STORE_MODE
 	  default n
 	  help
 	    Say Y to enable CONFIG_STORE_MODE
+=======
+	  Say Y to fix charging frequency 4MHz
+>>>>>>> parent of 212478c... Add charger control driver
